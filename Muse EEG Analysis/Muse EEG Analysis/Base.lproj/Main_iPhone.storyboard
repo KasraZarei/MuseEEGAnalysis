@@ -117,7 +117,7 @@
         <!--Gather Data View Controller-->
         <scene sceneID="Jnd-YH-AbL">
             <objects>
-                <viewController id="JlS-6K-YGq" userLabel="Gather Data View Controller" sceneMemberID="viewController">
+                <viewController id="JlS-6K-YGq" userLabel="Gather Data View Controller" customClass="GatherDataViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zga-TH-QHx"/>
                         <viewControllerLayoutGuide type="bottom" id="oYZ-Xj-Y78"/>
@@ -181,6 +181,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Device_IP" destination="hLn-0C-rM8" id="fcD-dz-LpQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uaC-Xf-xF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -323,7 +326,7 @@
         <!--Results View Controller-->
         <scene sceneID="JUP-av-iAV">
             <objects>
-                <viewController id="zsi-Jy-IVh" userLabel="Results View Controller" sceneMemberID="viewController">
+                <viewController id="zsi-Jy-IVh" userLabel="Results View Controller" customClass="ResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AXK-P1-ue1"/>
                         <viewControllerLayoutGuide type="bottom" id="fCE-dj-szK"/>
@@ -400,7 +403,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="vHX-uC-ehO"/>
+        <segue reference="URb-Zs-pYE"/>
         <segue reference="qYz-fy-hpO"/>
     </inferredMetricsTieBreakers>
 </document>

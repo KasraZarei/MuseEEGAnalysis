@@ -20,6 +20,8 @@
 		621A8AA91E9AC7F8007D0A12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8AA81E9AC7F8007D0A12 /* XCTest.framework */; };
 		621A8AAA1E9AC7F8007D0A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A861E9AC7F8007D0A12 /* Foundation.framework */; };
 		621A8AAB1E9AC7F8007D0A12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A8A1E9AC7F8007D0A12 /* UIKit.framework */; };
+		6284915D1E9ADAD100E0CC93 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284915C1E9ADAD100E0CC93 /* ResultsViewController.m */; };
+		628491601E9ADC2100E0CC93 /* GatherDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284915F1E9ADC2100E0CC93 /* GatherDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		621A8AA11E9AC7F8007D0A12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		621A8AA71E9AC7F8007D0A12 /* Muse EEG AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muse EEG AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621A8AA81E9AC7F8007D0A12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6284915B1E9ADAD100E0CC93 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
+		6284915C1E9ADAD100E0CC93 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
+		6284915E1E9ADC2100E0CC93 /* GatherDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatherDataViewController.h; sourceTree = "<group>"; };
+		6284915F1E9ADC2100E0CC93 /* GatherDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GatherDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +114,13 @@
 		621A8A8C1E9AC7F8007D0A12 /* Muse EEG Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				6284915B1E9ADAD100E0CC93 /* ResultsViewController.h */,
+				6284915C1E9ADAD100E0CC93 /* ResultsViewController.m */,
 				621A8A951E9AC7F8007D0A12 /* AppDelegate.h */,
 				621A8A961E9AC7F8007D0A12 /* AppDelegate.m */,
 				621A8A981E9AC7F8007D0A12 /* Main_iPhone.storyboard */,
+				6284915E1E9ADC2100E0CC93 /* GatherDataViewController.h */,
+				6284915F1E9ADC2100E0CC93 /* GatherDataViewController.m */,
 				621A8A9B1E9AC7F8007D0A12 /* Main_iPad.storyboard */,
 				621A8A9E1E9AC7F8007D0A12 /* ViewController.h */,
 				621A8A9F1E9AC7F8007D0A12 /* ViewController.m */,
@@ -229,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				621A8AA01E9AC7F8007D0A12 /* ViewController.m in Sources */,
+				628491601E9ADC2100E0CC93 /* GatherDataViewController.m in Sources */,
 				621A8A971E9AC7F8007D0A12 /* AppDelegate.m in Sources */,
 				621A8A931E9AC7F8007D0A12 /* main.m in Sources */,
+				6284915D1E9ADAD100E0CC93 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +448,7 @@
 				621A8ABA1E9AC7F8007D0A12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		621A8ABB1E9AC7F8007D0A12 /* Build configuration list for PBXNativeTarget "Muse EEG AnalysisTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +457,7 @@
 				621A8ABD1E9AC7F8007D0A12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
