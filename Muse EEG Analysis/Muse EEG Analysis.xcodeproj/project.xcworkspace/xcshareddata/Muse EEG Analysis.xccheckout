@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37196AE5-A20C-49E6-953A-BFECB449E64E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Muse EEG Analysis</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD6FE3AC-4AC3-4D61-9067-7E37D2BB7E25</key>
+		<string>https://github.com/KasraZarei/MuseEEGAnalysis.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Muse EEG Analysis/Muse EEG Analysis.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD6FE3AC-4AC3-4D61-9067-7E37D2BB7E25</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KasraZarei/MuseEEGAnalysis.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD6FE3AC-4AC3-4D61-9067-7E37D2BB7E25</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD6FE3AC-4AC3-4D61-9067-7E37D2BB7E25</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MuseEEGAnalysis</string>
+		</dict>
+	</array>
+</dict>
+</plist>
