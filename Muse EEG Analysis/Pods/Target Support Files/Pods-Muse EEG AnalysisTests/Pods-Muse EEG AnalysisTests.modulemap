@@ -1,0 +1,6 @@
+framework module Pods_Muse_EEG_AnalysisTests {
+  umbrella header "Pods-Muse EEG AnalysisTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

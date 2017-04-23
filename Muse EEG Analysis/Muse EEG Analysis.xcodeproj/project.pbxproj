@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44D7F417F68E6CCD53465EA6 /* Pods_Muse_EEG_AnalysisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBA4BB25779F2E9E935FE9B /* Pods_Muse_EEG_AnalysisTests.framework */; };
 		621A8A871E9AC7F8007D0A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A861E9AC7F8007D0A12 /* Foundation.framework */; };
 		621A8A891E9AC7F8007D0A12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A881E9AC7F8007D0A12 /* CoreGraphics.framework */; };
 		621A8A8B1E9AC7F8007D0A12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A8A1E9AC7F8007D0A12 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		621A8AAB1E9AC7F8007D0A12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621A8A8A1E9AC7F8007D0A12 /* UIKit.framework */; };
 		6284915D1E9ADAD100E0CC93 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284915C1E9ADAD100E0CC93 /* ResultsViewController.m */; };
 		628491601E9ADC2100E0CC93 /* GatherDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6284915F1E9ADC2100E0CC93 /* GatherDataViewController.m */; };
+		675CC95E2C36C14EBB7B208E /* Pods_Muse_EEG_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F61DF4070712BEE450EAFE /* Pods_Muse_EEG_Analysis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		418C2B98C18A139BA85910D2 /* Pods-Muse EEG Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse EEG Analysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muse EEG Analysis/Pods-Muse EEG Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		5E274FA38EAEC4829EDE9D5A /* Pods-Muse EEG AnalysisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse EEG AnalysisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muse EEG AnalysisTests/Pods-Muse EEG AnalysisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		621A8A831E9AC7F8007D0A12 /* Muse EEG Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muse EEG Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621A8A861E9AC7F8007D0A12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		621A8A881E9AC7F8007D0A12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +60,10 @@
 		6284915C1E9ADAD100E0CC93 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
 		6284915E1E9ADC2100E0CC93 /* GatherDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatherDataViewController.h; sourceTree = "<group>"; };
 		6284915F1E9ADC2100E0CC93 /* GatherDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GatherDataViewController.m; sourceTree = "<group>"; };
+		684EC1AE413B89D92D341753 /* Pods-Muse EEG Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse EEG Analysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muse EEG Analysis/Pods-Muse EEG Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		9752834625BBB8B9D3D5C220 /* Pods-Muse EEG AnalysisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse EEG AnalysisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muse EEG AnalysisTests/Pods-Muse EEG AnalysisTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACBA4BB25779F2E9E935FE9B /* Pods_Muse_EEG_AnalysisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muse_EEG_AnalysisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F61DF4070712BEE450EAFE /* Pods_Muse_EEG_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muse_EEG_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 				621A8A891E9AC7F8007D0A12 /* CoreGraphics.framework in Frameworks */,
 				621A8A8B1E9AC7F8007D0A12 /* UIKit.framework in Frameworks */,
 				621A8A871E9AC7F8007D0A12 /* Foundation.framework in Frameworks */,
+				675CC95E2C36C14EBB7B208E /* Pods_Muse_EEG_Analysis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,18 +85,31 @@
 				621A8AA91E9AC7F8007D0A12 /* XCTest.framework in Frameworks */,
 				621A8AAB1E9AC7F8007D0A12 /* UIKit.framework in Frameworks */,
 				621A8AAA1E9AC7F8007D0A12 /* Foundation.framework in Frameworks */,
+				44D7F417F68E6CCD53465EA6 /* Pods_Muse_EEG_AnalysisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22209FE661E7A017057067D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				418C2B98C18A139BA85910D2 /* Pods-Muse EEG Analysis.debug.xcconfig */,
+				684EC1AE413B89D92D341753 /* Pods-Muse EEG Analysis.release.xcconfig */,
+				5E274FA38EAEC4829EDE9D5A /* Pods-Muse EEG AnalysisTests.debug.xcconfig */,
+				9752834625BBB8B9D3D5C220 /* Pods-Muse EEG AnalysisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		621A8A7A1E9AC7F8007D0A12 = {
 			isa = PBXGroup;
 			children = (
 				621A8A8C1E9AC7F8007D0A12 /* Muse EEG Analysis */,
 				621A8A851E9AC7F8007D0A12 /* Frameworks */,
 				621A8A841E9AC7F8007D0A12 /* Products */,
+				22209FE661E7A017057067D5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +129,8 @@
 				621A8A881E9AC7F8007D0A12 /* CoreGraphics.framework */,
 				621A8A8A1E9AC7F8007D0A12 /* UIKit.framework */,
 				621A8AA81E9AC7F8007D0A12 /* XCTest.framework */,
+				C6F61DF4070712BEE450EAFE /* Pods_Muse_EEG_Analysis.framework */,
+				ACBA4BB25779F2E9E935FE9B /* Pods_Muse_EEG_AnalysisTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621A8AB81E9AC7F8007D0A12 /* Build configuration list for PBXNativeTarget "Muse EEG Analysis" */;
 			buildPhases = (
+				9AA6B4EC1250A1C9297E713D /* [CP] Check Pods Manifest.lock */,
 				621A8A7F1E9AC7F8007D0A12 /* Sources */,
 				621A8A801E9AC7F8007D0A12 /* Frameworks */,
 				621A8A811E9AC7F8007D0A12 /* Resources */,
+				32016CABFA4B1FE8384D9BF5 /* [CP] Embed Pods Frameworks */,
+				3293203DDAC4E19F2E4F374B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621A8ABB1E9AC7F8007D0A12 /* Build configuration list for PBXNativeTarget "Muse EEG AnalysisTests" */;
 			buildPhases = (
+				6288571D75E34F390E2DB058 /* [CP] Check Pods Manifest.lock */,
 				621A8AA31E9AC7F8007D0A12 /* Sources */,
 				621A8AA41E9AC7F8007D0A12 /* Frameworks */,
 				621A8AA51E9AC7F8007D0A12 /* Resources */,
+				97DAADD81B5BA48BE21A7A4C /* [CP] Embed Pods Frameworks */,
+				3A9E7F3FF43EAC4229439FC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +262,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32016CABFA4B1FE8384D9BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse EEG Analysis/Pods-Muse EEG Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3293203DDAC4E19F2E4F374B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse EEG Analysis/Pods-Muse EEG Analysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A9E7F3FF43EAC4229439FC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse EEG AnalysisTests/Pods-Muse EEG AnalysisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6288571D75E34F390E2DB058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97DAADD81B5BA48BE21A7A4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse EEG AnalysisTests/Pods-Muse EEG AnalysisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA6B4EC1250A1C9297E713D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		621A8A7F1E9AC7F8007D0A12 /* Sources */ = {
@@ -365,6 +488,7 @@
 		};
 		621A8AB91E9AC7F8007D0A12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418C2B98C18A139BA85910D2 /* Pods-Muse EEG Analysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -378,6 +502,7 @@
 		};
 		621A8ABA1E9AC7F8007D0A12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684EC1AE413B89D92D341753 /* Pods-Muse EEG Analysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -391,6 +516,7 @@
 		};
 		621A8ABC1E9AC7F8007D0A12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E274FA38EAEC4829EDE9D5A /* Pods-Muse EEG AnalysisTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Muse EEG Analysis.app/Muse EEG Analysis";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -413,6 +539,7 @@
 		};
 		621A8ABD1E9AC7F8007D0A12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9752834625BBB8B9D3D5C220 /* Pods-Muse EEG AnalysisTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Muse EEG Analysis.app/Muse EEG Analysis";
 				FRAMEWORK_SEARCH_PATHS = (
