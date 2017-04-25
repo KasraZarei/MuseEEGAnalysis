@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B204811E7F0ADE00429DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B204801E7F0ADE00429DAC /* main.m */; };
+		14B204841E7F0ADE00429DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B204831E7F0ADE00429DAC /* AppDelegate.m */; };
+		14B204871E7F0ADE00429DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B204861E7F0ADE00429DAC /* ViewController.m */; };
+		14B2048A1E7F0ADE00429DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B204881E7F0ADE00429DAC /* Main.storyboard */; };
+		14B2048C1E7F0ADE00429DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B2048B1E7F0ADE00429DAC /* Assets.xcassets */; };
+		14B2048F1E7F0ADE00429DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B2048D1E7F0ADE00429DAC /* LaunchScreen.storyboard */; };
+		14B2049A1E7F0ADF00429DAC /* Delirium_DetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B204991E7F0ADF00429DAC /* Delirium_DetectorTests.m */; };
+		14B204A51E7F0ADF00429DAC /* Delirium_DetectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B204A41E7F0ADF00429DAC /* Delirium_DetectorUITests.m */; };
+		14B204B31E7F1C8100429DAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B204B21E7F1C8100429DAC /* GoogleService-Info.plist */; };
+		452A04D667A931CC93B5A6CF /* libPods-Delirium Detector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE572E72B8420AC7E06335E /* libPods-Delirium Detector.a */; };
+		8555729A1EAE761900B306AE /* TakeReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855572991EAE761800B306AE /* TakeReadingViewController.m */; };
+		85E5C67E1EAED15300DE344E /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5C67D1EAED15300DE344E /* SurveyViewController.m */; };
+		8ECC74F3DC7AFDD45F92D021 /* libPods-Delirium DetectorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1A375FE319C8747C156FA5 /* libPods-Delirium DetectorTests.a */; };
+		A8F898B815C8B92AFAD279F3 /* libPods-Delirium DetectorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086B36AB90B2AD3E9453A7BA /* libPods-Delirium DetectorUITests.a */; };
+		F9266C971E9C31E90082A3A3 /* Signout View.m in Sources */ = {isa = PBXBuildFile; fileRef = F9266C961E9C31E90082A3A3 /* Signout View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B204961E7F0ADF00429DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B204741E7F0ADE00429DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B2047B1E7F0ADE00429DAC;
+			remoteInfo = "Delirium Detector";
+		};
+		14B204A11E7F0ADF00429DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B204741E7F0ADE00429DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B2047B1E7F0ADE00429DAC;
+			remoteInfo = "Delirium Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086B36AB90B2AD3E9453A7BA /* libPods-Delirium DetectorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Delirium DetectorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B2047C1E7F0ADE00429DAC /* Delirium Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delirium Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B204801E7F0ADE00429DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B204821E7F0ADE00429DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B204831E7F0ADE00429DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B204851E7F0ADE00429DAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14B204861E7F0ADE00429DAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14B204891E7F0ADE00429DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B2048B1E7F0ADE00429DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B2048E1E7F0ADE00429DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B204901E7F0ADE00429DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B204951E7F0ADF00429DAC /* Delirium DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delirium DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B204991E7F0ADF00429DAC /* Delirium_DetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Delirium_DetectorTests.m; sourceTree = "<group>"; };
+		14B2049B1E7F0ADF00429DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B204A01E7F0ADF00429DAC /* Delirium DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delirium DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B204A41E7F0ADF00429DAC /* Delirium_DetectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Delirium_DetectorUITests.m; sourceTree = "<group>"; };
+		14B204A61E7F0ADF00429DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B204B21E7F1C8100429DAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14B204B41E7F271100429DAC /* Delirium Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Delirium Detector.entitlements"; sourceTree = "<group>"; };
+		1668A509373AC4E20ED36868 /* Pods-Delirium DetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorTests/Pods-Delirium DetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17ECC01AEDC4D16F80F0180D /* Pods-Delirium DetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorUITests/Pods-Delirium DetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE572E72B8420AC7E06335E /* libPods-Delirium Detector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Delirium Detector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A375FE319C8747C156FA5 /* libPods-Delirium DetectorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Delirium DetectorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835F9A5BB1F659DF7BD4B1BE /* Pods-Delirium DetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorUITests/Pods-Delirium DetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		855572981EAE761800B306AE /* TakeReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeReadingViewController.h; sourceTree = "<group>"; };
+		855572991EAE761800B306AE /* TakeReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeReadingViewController.m; sourceTree = "<group>"; };
+		85E5C67C1EAED15300DE344E /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		85E5C67D1EAED15300DE344E /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		9B7606E6705A06EA39111F73 /* Pods-Delirium Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium Detector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector.release.xcconfig"; sourceTree = "<group>"; };
+		D9B9B282038A33C523D2D75F /* Pods-Delirium DetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorTests/Pods-Delirium DetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F29A90A8D23AE0ADDB2B4271 /* Pods-Delirium Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium Detector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector.debug.xcconfig"; sourceTree = "<group>"; };
+		F9266C951E9C31E90082A3A3 /* Signout View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Signout View.h"; sourceTree = "<group>"; };
+		F9266C961E9C31E90082A3A3 /* Signout View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Signout View.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B204791E7F0ADE00429DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452A04D667A931CC93B5A6CF /* libPods-Delirium Detector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B204921E7F0ADF00429DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECC74F3DC7AFDD45F92D021 /* libPods-Delirium DetectorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B2049D1E7F0ADF00429DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F898B815C8B92AFAD279F3 /* libPods-Delirium DetectorUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B204731E7F0ADE00429DAC = {
+			isa = PBXGroup;
+			children = (
+				14B2047E1E7F0ADE00429DAC /* Delirium Detector */,
+				14B204981E7F0ADF00429DAC /* Delirium DetectorTests */,
+				14B204A31E7F0ADF00429DAC /* Delirium DetectorUITests */,
+				14B2047D1E7F0ADE00429DAC /* Products */,
+				AE72097E2C433BEA8F523861 /* Pods */,
+				3AC6C36D5F991785922A81E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14B2047D1E7F0ADE00429DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B2047C1E7F0ADE00429DAC /* Delirium Detector.app */,
+				14B204951E7F0ADF00429DAC /* Delirium DetectorTests.xctest */,
+				14B204A01E7F0ADF00429DAC /* Delirium DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B2047E1E7F0ADE00429DAC /* Delirium Detector */ = {
+			isa = PBXGroup;
+			children = (
+				14B204B41E7F271100429DAC /* Delirium Detector.entitlements */,
+				14B204821E7F0ADE00429DAC /* AppDelegate.h */,
+				14B204831E7F0ADE00429DAC /* AppDelegate.m */,
+				14B204851E7F0ADE00429DAC /* ViewController.h */,
+				14B204861E7F0ADE00429DAC /* ViewController.m */,
+				14B204881E7F0ADE00429DAC /* Main.storyboard */,
+				85E5C67C1EAED15300DE344E /* SurveyViewController.h */,
+				85E5C67D1EAED15300DE344E /* SurveyViewController.m */,
+				855572981EAE761800B306AE /* TakeReadingViewController.h */,
+				855572991EAE761800B306AE /* TakeReadingViewController.m */,
+				14B204B21E7F1C8100429DAC /* GoogleService-Info.plist */,
+				14B2048B1E7F0ADE00429DAC /* Assets.xcassets */,
+				14B2048D1E7F0ADE00429DAC /* LaunchScreen.storyboard */,
+				14B204901E7F0ADE00429DAC /* Info.plist */,
+				14B2047F1E7F0ADE00429DAC /* Supporting Files */,
+				F9266C951E9C31E90082A3A3 /* Signout View.h */,
+				F9266C961E9C31E90082A3A3 /* Signout View.m */,
+			);
+			path = "Delirium Detector";
+			sourceTree = "<group>";
+		};
+		14B2047F1E7F0ADE00429DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B204801E7F0ADE00429DAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14B204981E7F0ADF00429DAC /* Delirium DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B204991E7F0ADF00429DAC /* Delirium_DetectorTests.m */,
+				14B2049B1E7F0ADF00429DAC /* Info.plist */,
+			);
+			path = "Delirium DetectorTests";
+			sourceTree = "<group>";
+		};
+		14B204A31E7F0ADF00429DAC /* Delirium DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14B204A41E7F0ADF00429DAC /* Delirium_DetectorUITests.m */,
+				14B204A61E7F0ADF00429DAC /* Info.plist */,
+			);
+			path = "Delirium DetectorUITests";
+			sourceTree = "<group>";
+		};
+		3AC6C36D5F991785922A81E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE572E72B8420AC7E06335E /* libPods-Delirium Detector.a */,
+				3D1A375FE319C8747C156FA5 /* libPods-Delirium DetectorTests.a */,
+				086B36AB90B2AD3E9453A7BA /* libPods-Delirium DetectorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE72097E2C433BEA8F523861 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F29A90A8D23AE0ADDB2B4271 /* Pods-Delirium Detector.debug.xcconfig */,
+				9B7606E6705A06EA39111F73 /* Pods-Delirium Detector.release.xcconfig */,
+				1668A509373AC4E20ED36868 /* Pods-Delirium DetectorTests.debug.xcconfig */,
+				D9B9B282038A33C523D2D75F /* Pods-Delirium DetectorTests.release.xcconfig */,
+				17ECC01AEDC4D16F80F0180D /* Pods-Delirium DetectorUITests.debug.xcconfig */,
+				835F9A5BB1F659DF7BD4B1BE /* Pods-Delirium DetectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B2047B1E7F0ADE00429DAC /* Delirium Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B204A91E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium Detector" */;
+			buildPhases = (
+				24C2DB1A7454FD447A3FDCE5 /* [CP] Check Pods Manifest.lock */,
+				14B204781E7F0ADE00429DAC /* Sources */,
+				14B204791E7F0ADE00429DAC /* Frameworks */,
+				14B2047A1E7F0ADE00429DAC /* Resources */,
+				1884550AA90597085A144AA2 /* [CP] Embed Pods Frameworks */,
+				46428CBE84AFB07A38E8DECE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delirium Detector";
+			productName = "Delirium Detector";
+			productReference = 14B2047C1E7F0ADE00429DAC /* Delirium Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B204941E7F0ADF00429DAC /* Delirium DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B204AC1E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium DetectorTests" */;
+			buildPhases = (
+				51534F94C5B5F1DAA84427C9 /* [CP] Check Pods Manifest.lock */,
+				14B204911E7F0ADF00429DAC /* Sources */,
+				14B204921E7F0ADF00429DAC /* Frameworks */,
+				14B204931E7F0ADF00429DAC /* Resources */,
+				033E5F9069223938EB604A46 /* [CP] Embed Pods Frameworks */,
+				C15AEEE645BF7AD445F65834 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B204971E7F0ADF00429DAC /* PBXTargetDependency */,
+			);
+			name = "Delirium DetectorTests";
+			productName = "Delirium DetectorTests";
+			productReference = 14B204951E7F0ADF00429DAC /* Delirium DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14B2049F1E7F0ADF00429DAC /* Delirium DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B204AF1E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium DetectorUITests" */;
+			buildPhases = (
+				03EA73FEDEA3C941D951A207 /* [CP] Check Pods Manifest.lock */,
+				14B2049C1E7F0ADF00429DAC /* Sources */,
+				14B2049D1E7F0ADF00429DAC /* Frameworks */,
+				14B2049E1E7F0ADF00429DAC /* Resources */,
+				5350ED2129D4F0C840A8A748 /* [CP] Embed Pods Frameworks */,
+				7146020517A8F0E8F7F5E2C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B204A21E7F0ADF00429DAC /* PBXTargetDependency */,
+			);
+			name = "Delirium DetectorUITests";
+			productName = "Delirium DetectorUITests";
+			productReference = 14B204A01E7F0ADF00429DAC /* Delirium DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B204741E7F0ADE00429DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IOT;
+				TargetAttributes = {
+					14B2047B1E7F0ADE00429DAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					14B204941E7F0ADF00429DAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B2047B1E7F0ADE00429DAC;
+					};
+					14B2049F1E7F0ADF00429DAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B2047B1E7F0ADE00429DAC;
+					};
+				};
+			};
+			buildConfigurationList = 14B204771E7F0ADE00429DAC /* Build configuration list for PBXProject "Delirium Detector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B204731E7F0ADE00429DAC;
+			productRefGroup = 14B2047D1E7F0ADE00429DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B2047B1E7F0ADE00429DAC /* Delirium Detector */,
+				14B204941E7F0ADF00429DAC /* Delirium DetectorTests */,
+				14B2049F1E7F0ADF00429DAC /* Delirium DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B2047A1E7F0ADE00429DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B2048F1E7F0ADE00429DAC /* LaunchScreen.storyboard in Resources */,
+				14B204B31E7F1C8100429DAC /* GoogleService-Info.plist in Resources */,
+				14B2048C1E7F0ADE00429DAC /* Assets.xcassets in Resources */,
+				14B2048A1E7F0ADE00429DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B204931E7F0ADF00429DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B2049E1E7F0ADF00429DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033E5F9069223938EB604A46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium DetectorTests/Pods-Delirium DetectorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03EA73FEDEA3C941D951A207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1884550AA90597085A144AA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24C2DB1A7454FD447A3FDCE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46428CBE84AFB07A38E8DECE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51534F94C5B5F1DAA84427C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5350ED2129D4F0C840A8A748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium DetectorUITests/Pods-Delirium DetectorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7146020517A8F0E8F7F5E2C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium DetectorUITests/Pods-Delirium DetectorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15AEEE645BF7AD445F65834 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Delirium DetectorTests/Pods-Delirium DetectorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B204781E7F0ADE00429DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E5C67E1EAED15300DE344E /* SurveyViewController.m in Sources */,
+				8555729A1EAE761900B306AE /* TakeReadingViewController.m in Sources */,
+				14B204871E7F0ADE00429DAC /* ViewController.m in Sources */,
+				F9266C971E9C31E90082A3A3 /* Signout View.m in Sources */,
+				14B204841E7F0ADE00429DAC /* AppDelegate.m in Sources */,
+				14B204811E7F0ADE00429DAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B204911E7F0ADF00429DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B2049A1E7F0ADF00429DAC /* Delirium_DetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B2049C1E7F0ADF00429DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B204A51E7F0ADF00429DAC /* Delirium_DetectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B204971E7F0ADF00429DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B2047B1E7F0ADE00429DAC /* Delirium Detector */;
+			targetProxy = 14B204961E7F0ADF00429DAC /* PBXContainerItemProxy */;
+		};
+		14B204A21E7F0ADF00429DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B2047B1E7F0ADE00429DAC /* Delirium Detector */;
+			targetProxy = 14B204A11E7F0ADF00429DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B204881E7F0ADE00429DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B204891E7F0ADE00429DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B2048D1E7F0ADE00429DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B2048E1E7F0ADE00429DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B204A71E7F0ADF00429DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B204A81E7F0ADF00429DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B204AA1E7F0ADF00429DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29A90A8D23AE0ADDB2B4271 /* Pods-Delirium Detector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Delirium Detector/Delirium Detector.entitlements";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Delirium Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		14B204AB1E7F0ADF00429DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7606E6705A06EA39111F73 /* Pods-Delirium Detector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Delirium Detector/Delirium Detector.entitlements";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Delirium Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		14B204AD1E7F0ADF00429DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1668A509373AC4E20ED36868 /* Pods-Delirium DetectorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Delirium DetectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delirium Detector.app/Delirium Detector";
+			};
+			name = Debug;
+		};
+		14B204AE1E7F0ADF00429DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B9B282038A33C523D2D75F /* Pods-Delirium DetectorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Delirium DetectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delirium Detector.app/Delirium Detector";
+			};
+			name = Release;
+		};
+		14B204B01E7F0ADF00429DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17ECC01AEDC4D16F80F0180D /* Pods-Delirium DetectorUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Delirium DetectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Delirium Detector";
+			};
+			name = Debug;
+		};
+		14B204B11E7F0ADF00429DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835F9A5BB1F659DF7BD4B1BE /* Pods-Delirium DetectorUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Delirium DetectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iot.Delirium-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Delirium Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B204771E7F0ADE00429DAC /* Build configuration list for PBXProject "Delirium Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B204A71E7F0ADF00429DAC /* Debug */,
+				14B204A81E7F0ADF00429DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B204A91E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B204AA1E7F0ADF00429DAC /* Debug */,
+				14B204AB1E7F0ADF00429DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B204AC1E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B204AD1E7F0ADF00429DAC /* Debug */,
+				14B204AE1E7F0ADF00429DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B204AF1E7F0ADF00429DAC /* Build configuration list for PBXNativeTarget "Delirium DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B204B01E7F0ADF00429DAC /* Debug */,
+				14B204B11E7F0ADF00429DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B204741E7F0ADE00429DAC /* Project object */;
+}
