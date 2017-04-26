@@ -37,10 +37,31 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (IBAction)pushSurveyToFirebase:(id)sender {
+- (IBAction)surveyComplete:(id)sender {
+    //called when segment changes
+    NSLog(@"Current segment: %ld", [segmentQ1 selectedSegmentIndex]);
+    
+    double score = ((((double)(segmentQ1.selectedSegmentIndex+1))+((double)(segmentQ2.selectedSegmentIndex+1))+((double)(segmentQ3.selectedSegmentIndex+1))+((double)(segmentQ4.selectedSegmentIndex+1))+((double)(segmentQ5.selectedSegmentIndex+1))+((double)(segmentQ6.selectedSegmentIndex+1))+((double)(segmentQ7.selectedSegmentIndex+1)))/7);
+    
+    NSLog(@"score: %f", score);
+    
+    NSString *finScore = [NSString stringWithFormat: @"%f", score];
+    
+
+    //NSNumber *q1Val = @(segmentQ1.selectedSegmentIndex+1);
+    //NSNumber *q2Val = @(segmentQ2.selectedSegmentIndex+1);
+    
     FIRUser *user = [FIRAuth auth].currentUser;
-    self.ref =[[[[FIRDatabase database] reference] child:user.uid] child:@"survey"];//only reference survey section of current user
-    [_ref setValue:@{@"1":@"2"}];
+    
+    self.ref = [[[FIRDatabase database] reference] child:user.uid];//rootFirebase/currentUserId
+    [[[_ref child:@"survey"] childByAutoId] setValue:@{@"Overall Score":finScore}];
+    //self.ref =[[[[FIRDatabase database] reference] child:user.uid] child:@"survey"];//only reference survey section of current user
+    //[_ref setValue:@{@"Overall Score":finScore}];
+}
+- (IBAction)pushSurveyToFirebase:(id)sender {
+    //FIRUser *user = [FIRAuth auth].currentUser;
+    //self.ref =[[[[FIRDatabase database] reference] child:user.uid] child:@"survey"];//only reference survey section of current user
+    //[_ref setValue:@{@"1":@"2"}];
     
     //Push surveys to Firebase/user.uid/survey/
 }

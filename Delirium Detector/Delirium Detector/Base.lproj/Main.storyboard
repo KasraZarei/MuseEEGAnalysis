@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -153,22 +154,220 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxE-dJ-dMc">
-                                <rect key="frame" x="149" y="600" width="76" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxE-dJ-dMc">
+                                <rect key="frame" x="149" y="620" width="76" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="inC-Eu-mkT"/>
+                                </constraints>
                                 <state key="normal" title="Main Menu"/>
                                 <connections>
                                     <segue destination="2Gt-GT-PjF" kind="show" id="Pd9-Mr-Rg8"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fIa-6f-E2y">
-                                <rect key="frame" x="16" y="28" width="343" height="526"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-Hv-L95">
-                                <rect key="frame" x="162" y="562" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 = Strongly Disagree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udg-Ya-pu5">
+                                <rect key="frame" x="16" y="20" width="164" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 = Strongly Agree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jr-r7-MKB">
+                                <rect key="frame" x="197" y="20" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="During the past week, I have found that:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jr-wk-Z3n">
+                                <rect key="frame" x="16" y="49" width="304" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWx-Ca-uGH">
+                                <rect key="frame" x="128" y="566" width="118" height="30"/>
+                                <state key="normal" title="Complete Survey"/>
+                                <connections>
+                                    <action selector="surveyComplete:" destination="iyp-9H-9Od" eventType="touchUpInside" id="Kbb-zK-rFr"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqd-4X-0he">
+                                <rect key="frame" x="0.0" y="77" width="375" height="493"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My motivation is lower when I am fatigued." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIX-wl-48d">
+                                        <rect key="frame" x="8" y="8" width="324" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="Ngf-fy-TWz">
+                                        <rect key="frame" x="34" y="37" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise brings on my fatigue." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0y-E9-iZZ">
+                                        <rect key="frame" x="8" y="73" width="230" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="i2p-vO-T6b">
+                                        <rect key="frame" x="34" y="102" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am easily fatigued." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9L-KV-ghz">
+                                        <rect key="frame" x="8" y="138" width="152" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="jax-E2-mZu">
+                                        <rect key="frame" x="34" y="167" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatigue interferes with my physical function." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o8-IG-iPb">
+                                        <rect key="frame" x="8" y="203" width="337" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="npI-tg-ecQ">
+                                        <rect key="frame" x="34" y="232" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatigue causes frequent problems for me." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNW-p9-Yog">
+                                        <rect key="frame" x="8" y="268" width="319" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="yQc-qT-wXV">
+                                        <rect key="frame" x="34" y="297" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My fatigue prevents sustained physical function." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqh-wT-qzy">
+                                        <rect key="frame" x="8" y="333" width="369" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="EmQ-ne-HYg">
+                                        <rect key="frame" x="34" y="362" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fatigue interferes with my work, family, or social life." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2S-5Y-bhZ">
+                                        <rect key="frame" x="8" y="398" width="397" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="7" translatesAutoresizingMaskIntoConstraints="NO" id="f7z-4X-w6h">
+                                        <rect key="frame" x="34" y="448" width="306" height="29"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                            <segment title="5"/>
+                                            <segment title="6"/>
+                                            <segment title="7"/>
+                                            <segment title=""/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="lIX-wl-48d" firstAttribute="leading" secondItem="A0y-E9-iZZ" secondAttribute="leading" id="0JE-eP-Pvc"/>
+                                    <constraint firstItem="C9L-KV-ghz" firstAttribute="top" secondItem="i2p-vO-T6b" secondAttribute="bottom" constant="8" symbolic="YES" id="1IB-Hy-kuV"/>
+                                    <constraint firstItem="Ngf-fy-TWz" firstAttribute="top" secondItem="lIX-wl-48d" secondAttribute="bottom" constant="8" symbolic="YES" id="7TO-xk-NS6"/>
+                                    <constraint firstItem="jax-E2-mZu" firstAttribute="trailing" secondItem="npI-tg-ecQ" secondAttribute="trailing" id="8Yw-EJ-bbm"/>
+                                    <constraint firstItem="Ngf-fy-TWz" firstAttribute="centerX" secondItem="zqd-4X-0he" secondAttribute="centerX" id="9XH-7a-6eH"/>
+                                    <constraint firstItem="7o8-IG-iPb" firstAttribute="leading" secondItem="zqd-4X-0he" secondAttribute="leadingMargin" id="A5K-M9-dlK"/>
+                                    <constraint firstItem="EmQ-ne-HYg" firstAttribute="top" secondItem="aqh-wT-qzy" secondAttribute="bottom" constant="8" symbolic="YES" id="CZ8-5I-ACG"/>
+                                    <constraint firstItem="7o8-IG-iPb" firstAttribute="top" secondItem="jax-E2-mZu" secondAttribute="bottom" constant="8" symbolic="YES" id="EaV-1G-rLe"/>
+                                    <constraint firstItem="lIX-wl-48d" firstAttribute="top" secondItem="zqd-4X-0he" secondAttribute="topMargin" id="Ek5-vk-kij"/>
+                                    <constraint firstItem="i2p-vO-T6b" firstAttribute="trailing" secondItem="jax-E2-mZu" secondAttribute="trailing" id="Gse-TA-KCj"/>
+                                    <constraint firstItem="Ngf-fy-TWz" firstAttribute="trailing" secondItem="i2p-vO-T6b" secondAttribute="trailing" id="H6w-B5-8da"/>
+                                    <constraint firstItem="npI-tg-ecQ" firstAttribute="leading" secondItem="yQc-qT-wXV" secondAttribute="leading" id="ILf-h7-Ljn"/>
+                                    <constraint firstItem="EmQ-ne-HYg" firstAttribute="leading" secondItem="f7z-4X-w6h" secondAttribute="leading" id="ITN-hB-lmY"/>
+                                    <constraint firstItem="G2S-5Y-bhZ" firstAttribute="top" secondItem="EmQ-ne-HYg" secondAttribute="bottom" constant="8" symbolic="YES" id="KxP-qY-aec"/>
+                                    <constraint firstAttribute="bottom" secondItem="f7z-4X-w6h" secondAttribute="bottom" constant="17" id="RVL-DO-jad"/>
+                                    <constraint firstItem="7o8-IG-iPb" firstAttribute="leading" secondItem="WNW-p9-Yog" secondAttribute="leading" id="Rle-AH-cKK"/>
+                                    <constraint firstItem="i2p-vO-T6b" firstAttribute="leading" secondItem="jax-E2-mZu" secondAttribute="leading" id="aVb-Qm-plg"/>
+                                    <constraint firstItem="i2p-vO-T6b" firstAttribute="top" secondItem="A0y-E9-iZZ" secondAttribute="bottom" constant="8" symbolic="YES" id="ax8-YV-d1o"/>
+                                    <constraint firstItem="WNW-p9-Yog" firstAttribute="top" secondItem="npI-tg-ecQ" secondAttribute="bottom" constant="8" symbolic="YES" id="ay8-24-ElB"/>
+                                    <constraint firstAttribute="trailing" secondItem="aqh-wT-qzy" secondAttribute="trailing" constant="-2" id="bvZ-hl-yYy"/>
+                                    <constraint firstItem="lIX-wl-48d" firstAttribute="trailing" secondItem="Ngf-fy-TWz" secondAttribute="trailing" constant="-8" id="cAu-G8-pxc"/>
+                                    <constraint firstItem="yQc-qT-wXV" firstAttribute="top" secondItem="WNW-p9-Yog" secondAttribute="bottom" constant="8" symbolic="YES" id="cB0-qv-Gtg"/>
+                                    <constraint firstItem="lIX-wl-48d" firstAttribute="leading" secondItem="zqd-4X-0he" secondAttribute="leading" constant="8" id="eKD-dg-aeB"/>
+                                    <constraint firstItem="yQc-qT-wXV" firstAttribute="leading" secondItem="EmQ-ne-HYg" secondAttribute="leading" id="fYH-0V-FyB"/>
+                                    <constraint firstItem="A0y-E9-iZZ" firstAttribute="leading" secondItem="C9L-KV-ghz" secondAttribute="leading" id="gp3-aF-Gen"/>
+                                    <constraint firstItem="EmQ-ne-HYg" firstAttribute="trailing" secondItem="f7z-4X-w6h" secondAttribute="trailing" id="hAz-KM-mH3"/>
+                                    <constraint firstItem="aqh-wT-qzy" firstAttribute="top" secondItem="yQc-qT-wXV" secondAttribute="bottom" constant="8" symbolic="YES" id="haW-Y6-V2k"/>
+                                    <constraint firstItem="jax-E2-mZu" firstAttribute="top" secondItem="C9L-KV-ghz" secondAttribute="bottom" constant="8" symbolic="YES" id="myP-rj-ug3"/>
+                                    <constraint firstItem="yQc-qT-wXV" firstAttribute="trailing" secondItem="EmQ-ne-HYg" secondAttribute="trailing" id="nFe-86-QIF"/>
+                                    <constraint firstItem="jax-E2-mZu" firstAttribute="leading" secondItem="npI-tg-ecQ" secondAttribute="leading" id="pO0-R8-eQU"/>
+                                    <constraint firstItem="f7z-4X-w6h" firstAttribute="top" secondItem="G2S-5Y-bhZ" secondAttribute="bottom" constant="19" id="pcp-1U-D0f"/>
+                                    <constraint firstItem="Ngf-fy-TWz" firstAttribute="leading" secondItem="i2p-vO-T6b" secondAttribute="leading" id="pjQ-Dw-iYr"/>
+                                    <constraint firstItem="npI-tg-ecQ" firstAttribute="trailing" secondItem="yQc-qT-wXV" secondAttribute="trailing" id="uWb-CJ-LgD"/>
+                                    <constraint firstItem="C9L-KV-ghz" firstAttribute="leading" secondItem="G2S-5Y-bhZ" secondAttribute="leading" id="vWx-tF-gXo"/>
+                                    <constraint firstItem="WNW-p9-Yog" firstAttribute="leading" secondItem="aqh-wT-qzy" secondAttribute="leading" id="w8G-Do-mRq"/>
+                                    <constraint firstItem="npI-tg-ecQ" firstAttribute="top" secondItem="7o8-IG-iPb" secondAttribute="bottom" constant="8" symbolic="YES" id="wrM-FC-x3h"/>
+                                    <constraint firstItem="A0y-E9-iZZ" firstAttribute="top" secondItem="Ngf-fy-TWz" secondAttribute="bottom" constant="8" id="yV0-0V-CNr"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-Hv-L95">
+                                <rect key="frame" x="162" y="595" width="51" height="30"/>
                                 <state key="normal" title="Results"/>
                                 <connections>
                                     <action selector="pushSurveyToFirebase:" destination="iyp-9H-9Od" eventType="touchUpInside" id="LK9-7V-XVx"/>
@@ -177,7 +376,34 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Jr-wk-Z3n" firstAttribute="leading" secondItem="Udg-Ya-pu5" secondAttribute="leading" id="7CT-a6-Oan"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="leading" secondItem="k2g-sA-zUK" secondAttribute="leading" id="92Z-cN-tgk"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="centerX" secondItem="Wh9-Hv-L95" secondAttribute="centerX" id="9Hk-Ek-YbI"/>
+                            <constraint firstItem="4jr-r7-MKB" firstAttribute="leading" secondItem="Udg-Ya-pu5" secondAttribute="trailing" constant="17" id="ATC-Cc-NKF"/>
+                            <constraint firstItem="0Jr-wk-Z3n" firstAttribute="leading" secondItem="k2g-sA-zUK" secondAttribute="leadingMargin" id="KqD-d6-QEZ"/>
+                            <constraint firstItem="IWx-Ca-uGH" firstAttribute="top" secondItem="zqd-4X-0he" secondAttribute="bottom" constant="-4" id="X3L-z0-CQB"/>
+                            <constraint firstItem="0Jr-wk-Z3n" firstAttribute="top" secondItem="Udg-Ya-pu5" secondAttribute="bottom" constant="8" symbolic="YES" id="ZIh-K3-b9g"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="centerX" secondItem="IWx-Ca-uGH" secondAttribute="centerX" id="cPu-zj-Xy9"/>
+                            <constraint firstAttribute="trailing" secondItem="zqd-4X-0he" secondAttribute="trailing" id="csx-Sw-NHD"/>
+                            <constraint firstItem="0Jr-wk-Z3n" firstAttribute="top" secondItem="4jr-r7-MKB" secondAttribute="bottom" constant="8" symbolic="YES" id="dXN-Ip-tvu"/>
+                            <constraint firstItem="Wh9-Hv-L95" firstAttribute="top" secondItem="zqd-4X-0he" secondAttribute="bottom" constant="25" id="djm-dt-OcF"/>
+                            <constraint firstItem="4zB-EV-7Ob" firstAttribute="top" secondItem="cxE-dJ-dMc" secondAttribute="bottom" constant="8" symbolic="YES" id="ezh-XD-MNe"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="centerX" secondItem="cxE-dJ-dMc" secondAttribute="centerX" id="fCc-mN-eR5"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="top" secondItem="k2g-sA-zUK" secondAttribute="top" constant="77" id="gOV-eA-f5s"/>
+                            <constraint firstAttribute="bottom" secondItem="zqd-4X-0he" secondAttribute="bottom" constant="97" id="nVL-G1-lry"/>
+                            <constraint firstItem="zqd-4X-0he" firstAttribute="top" secondItem="0Jr-wk-Z3n" secondAttribute="bottom" constant="7" id="p9j-1W-QKD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="segmentQ1" destination="Ngf-fy-TWz" id="92O-7c-9Et"/>
+                        <outlet property="segmentQ2" destination="i2p-vO-T6b" id="caE-9s-QjG"/>
+                        <outlet property="segmentQ3" destination="jax-E2-mZu" id="rad-GQ-YcM"/>
+                        <outlet property="segmentQ4" destination="npI-tg-ecQ" id="daR-g4-ESy"/>
+                        <outlet property="segmentQ5" destination="yQc-qT-wXV" id="8zt-6O-Ewd"/>
+                        <outlet property="segmentQ6" destination="EmQ-ne-HYg" id="H6d-rb-tUZ"/>
+                        <outlet property="segmentQ7" destination="f7z-4X-w6h" id="g23-PR-Jzn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bD9-H9-en5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -214,7 +440,7 @@
         <!--Past Results View Controller-->
         <scene sceneID="aga-qq-7ih">
             <objects>
-                <viewController id="YJx-sD-6q1" userLabel="Past Results View Controller" sceneMemberID="viewController">
+                <viewController id="YJx-sD-6q1" userLabel="Past Results View Controller" customClass="PastResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vpq-Eh-DCs"/>
                         <viewControllerLayoutGuide type="bottom" id="0yZ-HS-30i"/>
@@ -224,9 +450,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="S9A-Oe-cZ9">
-                                <rect key="frame" x="16" y="28" width="343" height="260"/>
+                                <rect key="frame" x="16" y="28" width="343" height="581"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YJx-sD-6q1" id="EuP-Fj-xcq"/>
+                                    <outlet property="delegate" destination="YJx-sD-6q1" id="MPR-He-ZMQ"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzv-oQ-E2b">
                                 <rect key="frame" x="149" y="617" width="76" height="30"/>
@@ -242,7 +472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M4A-OY-wzw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2572" y="139"/>
+            <point key="canvasLocation" x="2572" y="138.98050974512745"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

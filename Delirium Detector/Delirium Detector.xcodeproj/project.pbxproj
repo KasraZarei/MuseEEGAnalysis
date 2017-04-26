@@ -21,6 +21,7 @@
 		85E5C67E1EAED15300DE344E /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5C67D1EAED15300DE344E /* SurveyViewController.m */; };
 		8ECC74F3DC7AFDD45F92D021 /* libPods-Delirium DetectorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1A375FE319C8747C156FA5 /* libPods-Delirium DetectorTests.a */; };
 		A8F898B815C8B92AFAD279F3 /* libPods-Delirium DetectorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086B36AB90B2AD3E9453A7BA /* libPods-Delirium DetectorUITests.a */; };
+		AA6055E71EAFDCEE009DD408 /* PastResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6055E61EAFDCEE009DD408 /* PastResultsViewController.m */; };
 		F9266C971E9C31E90082A3A3 /* Signout View.m in Sources */ = {isa = PBXBuildFile; fileRef = F9266C961E9C31E90082A3A3 /* Signout View.m */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,8 @@
 		85E5C67C1EAED15300DE344E /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
 		85E5C67D1EAED15300DE344E /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
 		9B7606E6705A06EA39111F73 /* Pods-Delirium Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium Detector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector.release.xcconfig"; sourceTree = "<group>"; };
+		AA6055E51EAFDCEE009DD408 /* PastResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastResultsViewController.h; sourceTree = "<group>"; };
+		AA6055E61EAFDCEE009DD408 /* PastResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastResultsViewController.m; sourceTree = "<group>"; };
 		D9B9B282038A33C523D2D75F /* Pods-Delirium DetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorTests/Pods-Delirium DetectorTests.release.xcconfig"; sourceTree = "<group>"; };
 		F29A90A8D23AE0ADDB2B4271 /* Pods-Delirium Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium Detector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector.debug.xcconfig"; sourceTree = "<group>"; };
 		F9266C951E9C31E90082A3A3 /* Signout View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Signout View.h"; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				14B204851E7F0ADE00429DAC /* ViewController.h */,
 				14B204861E7F0ADE00429DAC /* ViewController.m */,
 				14B204881E7F0ADE00429DAC /* Main.storyboard */,
+				AA6055E51EAFDCEE009DD408 /* PastResultsViewController.h */,
+				AA6055E61EAFDCEE009DD408 /* PastResultsViewController.m */,
 				85E5C67C1EAED15300DE344E /* SurveyViewController.h */,
 				85E5C67D1EAED15300DE344E /* SurveyViewController.m */,
 				855572981EAE761800B306AE /* TakeReadingViewController.h */,
@@ -491,6 +496,7 @@
 				14B204871E7F0ADE00429DAC /* ViewController.m in Sources */,
 				F9266C971E9C31E90082A3A3 /* Signout View.m in Sources */,
 				14B204841E7F0ADE00429DAC /* AppDelegate.m in Sources */,
+				AA6055E71EAFDCEE009DD408 /* PastResultsViewController.m in Sources */,
 				14B204811E7F0ADE00429DAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
