@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PastResultsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface PastResultsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
+    IBOutlet UISegmentedControl *segmentResultFilter;
+}
+
+- (IBAction)updateFilter:(id)sender;
 
 @end

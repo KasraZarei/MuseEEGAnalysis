@@ -18,6 +18,7 @@
 		14B204B31E7F1C8100429DAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B204B21E7F1C8100429DAC /* GoogleService-Info.plist */; };
 		452A04D667A931CC93B5A6CF /* libPods-Delirium Detector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE572E72B8420AC7E06335E /* libPods-Delirium Detector.a */; };
 		8555729A1EAE761900B306AE /* TakeReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855572991EAE761800B306AE /* TakeReadingViewController.m */; };
+		85D221A71EB29F330018C140 /* PastResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D221A61EB29F330018C140 /* PastResultsTableViewCell.m */; };
 		85E5C67E1EAED15300DE344E /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E5C67D1EAED15300DE344E /* SurveyViewController.m */; };
 		8ECC74F3DC7AFDD45F92D021 /* libPods-Delirium DetectorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1A375FE319C8747C156FA5 /* libPods-Delirium DetectorTests.a */; };
 		A8F898B815C8B92AFAD279F3 /* libPods-Delirium DetectorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086B36AB90B2AD3E9453A7BA /* libPods-Delirium DetectorUITests.a */; };
@@ -69,6 +70,8 @@
 		835F9A5BB1F659DF7BD4B1BE /* Pods-Delirium DetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium DetectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium DetectorUITests/Pods-Delirium DetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		855572981EAE761800B306AE /* TakeReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeReadingViewController.h; sourceTree = "<group>"; };
 		855572991EAE761800B306AE /* TakeReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeReadingViewController.m; sourceTree = "<group>"; };
+		85D221A51EB29F330018C140 /* PastResultsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastResultsTableViewCell.h; sourceTree = "<group>"; };
+		85D221A61EB29F330018C140 /* PastResultsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastResultsTableViewCell.m; sourceTree = "<group>"; };
 		85E5C67C1EAED15300DE344E /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
 		85E5C67D1EAED15300DE344E /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
 		9B7606E6705A06EA39111F73 /* Pods-Delirium Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delirium Detector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delirium Detector/Pods-Delirium Detector.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				14B204881E7F0ADE00429DAC /* Main.storyboard */,
 				AA6055E51EAFDCEE009DD408 /* PastResultsViewController.h */,
 				AA6055E61EAFDCEE009DD408 /* PastResultsViewController.m */,
+				85D221A51EB29F330018C140 /* PastResultsTableViewCell.h */,
+				85D221A61EB29F330018C140 /* PastResultsTableViewCell.m */,
 				85E5C67C1EAED15300DE344E /* SurveyViewController.h */,
 				85E5C67D1EAED15300DE344E /* SurveyViewController.m */,
 				855572981EAE761800B306AE /* TakeReadingViewController.h */,
@@ -493,6 +498,7 @@
 			files = (
 				85E5C67E1EAED15300DE344E /* SurveyViewController.m in Sources */,
 				8555729A1EAE761900B306AE /* TakeReadingViewController.m in Sources */,
+				85D221A71EB29F330018C140 /* PastResultsTableViewCell.m in Sources */,
 				14B204871E7F0ADE00429DAC /* ViewController.m in Sources */,
 				F9266C971E9C31E90082A3A3 /* Signout View.m in Sources */,
 				14B204841E7F0ADE00429DAC /* AppDelegate.m in Sources */,
